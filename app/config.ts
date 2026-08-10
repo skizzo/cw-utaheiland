@@ -17,9 +17,9 @@ const AppConfig = {
     useRedisCache: true,
   },
   header: {
-    useLogo: false,
-    logoUrl: "https://iazzu.com/img/sites/ArtTemplinKirzBlackLogo.png",
-    paddings: {top: 0, bottom: 4},
+    useLogo: true,
+    logoUrl: "https://iazzu.com/img/sites/UtaHeilandLogo.png",
+    paddings: {top: 10, bottom: 14},
   },
   legalNotice: {
     firstPart: {
