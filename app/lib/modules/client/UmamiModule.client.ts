@@ -1,0 +1,23 @@
+import {createLog} from "../Logger"
+
+const log = createLog("UmamiModule")
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export class UmamiModule {
+  //
+
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  static trackEvent(eventName: string, eventData?: Record<string, unknown>) {
+    if (typeof window !== "undefined" && window.umami) {
+      log.log("trackEvent()", {eventName, eventData})
+      window.umami.track(eventName, eventData)
+    }
+  }
+
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  static identifyUser(properties: Record<string, unknown>) {
+    if (typeof window !== "undefined" && window.umami) {
+      window.umami.identify(properties)
+    }
+  }
+}

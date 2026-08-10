@@ -1,0 +1,111 @@
+{
+  "hello": "Hallo",
+  "langs": {
+    "en": "Englisch",
+    "de": "Deutsch",
+    "es": "Spanisch",
+    "fr": "Französisch"
+  },
+  "currencies": {
+    "EUR": "Euro",
+    "USD": "US-Dollar",
+    "CHF": "Schweizer Franken",
+    "AUD": "Australischer Dollar",
+    "CAD": "Kanadischer Dollar",
+    "CNY": "Chinesische Yuan",
+    "GBP": "Britisches Pfund",
+    "JPY": "Japanischer Yen",
+    "NOK": "Norwegische Krone",
+    "BTC": "Bitcoin",
+    "SEK": "Schwedische Krone"
+  },
+  "units": {
+    "cm": "Zentimeter",
+    "cmShort": "cm",
+    "inchShort": "Zoll",
+    "inch": "Zoll"
+  },
+  "pages": {
+    "home": "Home",
+    "artworks": "Kunstwerke",
+    "artist_male": "Künstler",
+    "artist_female": "Künstlerin",
+    "events": "Events",
+    "contact": "Kontakt",
+    "settings": "Einstellungen",
+    "legalNotice": "Impressum",
+    "privacyPolicy": "Datenschutzbestimmungen"
+  },
+  "sections": {
+    "infos": "Infos",
+    "publicWalls": "Öffentliche Walls",
+    "artworkDetails": {
+      "dimensions": "Dimensionen",
+      "techniques_one": "Technik",
+      "techniques_other": "Techniken",
+      "materials_one": "Material",
+      "materials_other": "Materialien",
+      "year": "Entstanden",
+      "price": "Preis",
+      "availabilityStatus": "Status",
+      "authCert": "Echtheitszertifikat",
+      "additionalImages": "Zusätzliche Bilder",
+      "actionButton": {
+        "moreInfos": "Mehr Infos",
+        "purchase": "Kaufen",
+        "salesInquiry": "Kaufanfrage"
+      },
+      "actionButtonHref": {
+        "moreInfos": {
+          "subject": "Mehr Infos: {{artworkTitle}} - {{artistTitle}}",
+          "body": "Guten Tag, ich hätte gerne mehr Infos über '{{artworkTitle}}' von {{artistTitle}} ({{url}})"
+        },
+        "salesInquiry": {
+          "subject": "Kaufanfrage: {{artworkTitle}} - {{artistTitle}}",
+          "body": "Guten Tag, ich hätte gerne mehr Infos über '{{artworkTitle}}' von {{artistTitle}} ({{url}})"
+        }
+      }
+    },
+    "artistDetails": {
+      "additionalImages": "Medien"
+    },
+    "eventDetails": {
+      "organizedBy": "Dieses Event wird organisiert von",
+      "openingHours": "Zeiten",
+      "eras": {
+        "present": "Aktuell",
+        "future": "Zukünftig",
+        "past": "Vergangen"
+      }
+    }
+  },
+  "components": {
+    "selectLocale": {
+      "input": "Sprache"
+    },
+    "selectCurrency": {
+      "input": "Währung"
+    },
+    "selectUnit": {
+      "input": "Größeneinheit"
+    },
+    "userSettings": {
+      "header": "Einstellungen",
+      "buttons": {
+        "saveAndClose": "Speichern"
+      }
+    },
+    "qrCode": {
+      "viewInApp": "In App anzeigen",
+      "viewAtHome": "Zu Hause ansehen"
+    },
+    "loadMoreButton": {
+      "loadMore": "Mehr laden",
+      "loading": "Lade..",
+      "showAllArtworks": "Alle Kunstwerke anzeigen"
+    }
+  },
+  "global": {
+    "yes": "Ja"
+  }
+}

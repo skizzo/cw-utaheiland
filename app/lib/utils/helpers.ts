@@ -1,0 +1,45 @@
+import type {TAppLang} from "~/lib/types"
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export const getEnv = () => process.env.NODE_ENV as "development" | "production" | "test"
+
+export const isTestEnv = () => getEnv() === "test"
+export const isDevelopmentEnv = () => getEnv() === "development"
+export const isProductionEnv = () => !isTestEnv() && !isDevelopmentEnv()
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/** Returns a valid `TAppLang` (default: `"en"`) */
+export const getAppLang = (langInput: string | undefined): TAppLang => {
+  switch (langInput) {
+    case "de":
+      return "de"
+    case "es":
+      return "es"
+    case "fr":
+      return "fr"
+    default:
+      return "en"
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export const sleep = (ms: number) =>
+  new Promise<void>(resolve => {
+    if (!ms) {
+      resolve()
+      return
+    }
+    setTimeout(resolve, ms)
+  })
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export const getFullYear = () => new Date().getFullYear()
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export const getFirstLetterCapitalized = (str: string | undefined) => (!str ? "" : str.charAt(0).toUpperCase() + str.slice(1))
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export const getArrayUnique = <T>(array: T[]): T[] => (!array || !array.length ? [] : array.filter((value, index, self) => self.indexOf(value) === index).filter(i => !!i)) // only unique
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export const notEmpty = <TValue>(value: TValue | null | undefined): value is TValue => value !== null && value !== undefined

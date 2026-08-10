@@ -1,0 +1,111 @@
+{
+  "hello": "Baguette",
+  "langs": {
+    "en": "Anglais",
+    "de": "Allemand",
+    "es": "Espagnol",
+    "fr": "Français"
+  },
+  "currencies": {
+    "EUR": "euro",
+    "USD": "dollar US",
+    "CHF": "franc suisse",
+    "AUD": "dollar australien",
+    "CAD": "dollar canadien",
+    "CNY": "yuan renminbi chinois",
+    "GBP": "livre sterling",
+    "JPY": "yen japonais",
+    "NOK": "couronne norvégienne",
+    "BTC": "bitcoin",
+    "SEK": "couronne suédoise"
+  },
+  "units": {
+    "cm": "Métriques",
+    "cmShort": "cm",
+    "inchShort": "pouces",
+    "inch": "Impériales"
+  },
+  "pages": {
+    "home": "Accueil",
+    "artworks": "Œuvres d'art",
+    "artist_male": "Artiste",
+    "artist_female": "Artiste",
+    "events": "Événements",
+    "contact": "Contact",
+    "settings": "Paramètres",
+    "legalNotice": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité"
+  },
+  "sections": {
+    "infos": "Infos",
+    "publicWalls": "Murs Publics",
+    "artworkDetails": {
+      "dimensions": "Dimensions",
+      "techniques_one": "Technique",
+      "techniques_other": "Techniques",
+      "materials_one": "Matériel",
+      "materials_other": "Matériel",
+      "year": "Créée",
+      "price": "Prix",
+      "availabilityStatus": "Statut",
+      "authCert": "Certificat d'authenticité ",
+      "additionalImages": "Images Supplémentaires",
+      "actionButton": {
+        "moreInfos": "En savoir plus",
+        "purchase": "Acheter",
+        "salesInquiry": "Demande d'achat"
+      },
+      "actionButtonHref": {
+        "moreInfos": {
+          "subject": "En savoir plus: {{artworkTitle}} - {{artistTitle}}",
+          "body": "Bonjour, j'aimerais avoir plus d'informations sur {{artworkTitle}} de {{artistTitle}} ({{url}})"
+        },
+        "salesInquiry": {
+          "subject": "Demande d'achat: {{artworkTitle}} - {{artistTitle}}",
+          "body": "Bonjour, j'aimerais avoir plus d'informations sur {{artworkTitle}} de {{artistTitle}} ({{url}})"
+        }
+      }
+    },
+    "artistDetails": {
+      "additionalImages": "Médias"
+    },
+    "eventDetails": {
+      "organizedBy": "Cet événement est organisé par",
+      "openingHours": "Horaires",
+      "eras": {
+        "present": "Actuellement",
+        "future": "A venir",
+        "past": "Passés"
+      }
+    }
+  },
+  "components": {
+    "selectLocale": {
+      "input": "Langue"
+    },
+    "selectCurrency": {
+      "input": "Devise"
+    },
+    "selectUnit": {
+      "input": "Unité de mesure"
+    },
+    "userSettings": {
+      "header": "Paramètres",
+      "buttons": {
+        "saveAndClose": "Enregistrer"
+      }
+    },
+    "qrCode": {
+      "viewInApp": "Voir dans l'app",
+      "viewAtHome": "Voir chez soi"
+    },
+    "loadMoreButton": {
+      "loadMore": "Plus",
+      "loading": "Chargement..",
+      "showAllArtworks": "Montrer toutes les œuvres"
+    }
+  },
+  "global": {
+    "yes": "yes"
+  }
+}

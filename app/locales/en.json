@@ -1,0 +1,111 @@
+{
+  "hello": "Hi",
+  "langs": {
+    "en": "English",
+    "de": "German",
+    "es": "Spanish",
+    "fr": "French"
+  },
+  "currencies": {
+    "EUR": "Euro",
+    "USD": "US Dollar",
+    "CHF": "Swiss Franc",
+    "AUD": "Australian Dollar",
+    "CAD": "Canadian Dollar",
+    "CNY": "Chinese Yuan",
+    "GBP": "British Pound",
+    "JPY": "Japanese Yen",
+    "NOK": "Norwegian Krone",
+    "BTC": "Bitcoin",
+    "SEK": "Swedish Krona"
+  },
+  "units": {
+    "cm": "Centimeters",
+    "cmShort": "cm",
+    "inchShort": "inch",
+    "inch": "Inches"
+  },
+  "pages": {
+    "home": "Home",
+    "artworks": "Artworks",
+    "artist_male": "Artist",
+    "artist_female": "Artist",
+    "events": "Events",
+    "contact": "Contact",
+    "settings": "Settings",
+    "legalNotice": "Legal Notice",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "sections": {
+    "infos": "Infos",
+    "publicWalls": "Public Walls",
+    "artworkDetails": {
+      "dimensions": "Dimensions",
+      "techniques_one": "Technique",
+      "techniques_other": "Techniques",
+      "materials_one": "Material",
+      "materials_oother": "Materials",
+      "year": "Created",
+      "price": "Price",
+      "availabilityStatus": "Status",
+      "authCert": "Certificate of Authenticiy",
+      "additionalImages": "Additional Images",
+      "actionButton": {
+        "moreInfos": "More Info",
+        "purchase": "Purchase",
+        "salesInquiry": "Sales Inquiry"
+      },
+      "actionButtonHref": {
+        "moreInfos": {
+          "subject": "More Infos: {{artworkTitle}} - {{artistTitle}}",
+          "body": "Hello, I would like to have more infos about '{{artworkTitle}}' by {{artistTitle}} ({{url}})"
+        },
+        "salesInquiry": {
+          "subject": "Sales Inquiry: {{artworkTitle}} - {{artistTitle}}",
+          "body": "Hello, I would like to have more infos about '{{artworkTitle}}' by {{artistTitle}} ({{url}})"
+        }
+      }
+    },
+    "artistDetails": {
+      "additionalImages": "Media"
+    },
+    "eventDetails": {
+      "organizedBy": "This event is organized by",
+      "openingHours": "Schedule",
+      "eras": {
+        "present": "Current",
+        "future": "Future",
+        "past": "Past"
+      }
+    }
+  },
+  "components": {
+    "selectLocale": {
+      "input": "Language"
+    },
+    "selectCurrency": {
+      "input": "Currency"
+    },
+    "selectUnit": {
+      "input": "Dimensions Unit"
+    },
+    "userSettings": {
+      "header": "Settings",
+      "buttons": {
+        "saveAndClose": "Save"
+      }
+    },
+    "qrCode": {
+      "viewInApp": "View in App",
+      "viewAtHome": "View at Home"
+    },
+    "loadMoreButton": {
+      "loadMore": "Load More",
+      "loading": "Loading..",
+      "showAllArtworks": "Show all Artworks"
+    }
+  },
+  "global": {
+    "yes": "Yes"
+  }
+}
